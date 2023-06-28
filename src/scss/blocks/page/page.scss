@@ -1,0 +1,7 @@
+@use '../../helpers/color' as *;
+
+.page {
+  &__header {
+    overflow: hidden;
+  }
+}

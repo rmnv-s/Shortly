@@ -1,0 +1,9 @@
+@use '../helpers/mixins' as *;
+@use '../helpers/color' as *;
+
+.start-btn {
+  padding: 1.3rem 4rem;
+  border-radius: 3rem;
+  @include text(2rem, 1.5, 700) {
+  }
+}

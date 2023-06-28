@@ -1,0 +1,14 @@
+@use '../helpers/color' as *;
+.button {
+  background-color: $color-buttons;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s linear;
+
+  &:hover {
+    background-color: $color-buttons-hover;
+    opacity: 0.9;
+  }
+}

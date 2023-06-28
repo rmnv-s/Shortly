@@ -1,8 +1,18 @@
 @forward 'helpers/normalize';
 @forward 'helpers/fonts';
 @forward 'helpers/color';
-@forward 'helpers/text';
 @forward 'helpers/global';
 
-@forward 'blocks/root/root.scss';
-@forward 'blocks/page/page.scss';
+@forward 'blocks/root/root';
+@forward 'blocks/page/page';
+@forward 'blocks/wrapper/wrapper';
+
+@forward 'blocks/header/header';
+@forward 'blocks/header/burger-menu';
+@forward 'blocks/header/header-navigation';
+@forward 'blocks/header/menu';
+@forward 'blocks/header/user-nav';
+@forward 'blocks/header/header-content';
+
+@forward 'components/button';
+@forward 'components/start-btn';
